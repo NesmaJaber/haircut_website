@@ -1,0 +1,107 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px){
+    .hover-btn{
+       margin: auto;
+   }
+    .title-header{
+     padding-top: 35%;
+     font-size: 2rem;
+   }
+    .title2{
+    font-size: 2rem;
+   }
+   .information{
+    font-size: 1.2rem;
+   }
+   .navbar-dark .navbar-brand{
+      font-size: 20px;
+   }
+   .year ,   .exper{
+     font-size: 1.2rem;
+   }
+   .p-sec3{
+     font-size: 1.5rem;
+   }
+   .p-sec2{
+     font-size: 1.7rem;
+   }
+   .cssbuttons-io-button{
+     margin-left: 0;
+      margin: auto;
+      margin-top: 2%;
+    }
+   .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link{
+     font-size: 15px;
+   }
+   .navbar-dark .navbar-nav .nav-link{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 2%;
+   }
+   .barber{
+     margin-top: 5%;
+   }
+   .single-box{
+     margin-top: 5%;
+   }
+   .title-sec1{
+     font-size: 20px;
+   }
+   .p1{
+     font-size: 12px;
+   }
+}
+ 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .title-header{
+        padding-top: 35%;
+        font-size: 2.8rem;
+      }
+       .title2{
+       font-size: 2.8rem;
+      }
+      .information{
+       font-size: 1.2rem;
+      }
+      .year ,   .exper{
+        font-size: 1rem;
+      }
+      .single-box{
+        margin-top: 5%;
+      }
+      .barber{
+        margin-top: 10%;
+      }
+  
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .title-header{
+        padding-top: 25%;
+        font-size: 3.5rem;
+      }
+       .title2{
+       font-size: 3.5rem;
+      }
+      .information{
+       font-size: 1.4rem;
+      }
+      .single-box{
+        margin-top: 5%;
+      }
+      .img-text p{
+        font-size: 11px;
+    }
+    .barber{
+      margin-top: 10%;
+    }
+  
+}
+ /* Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) and (max-width: 1199.98px) {  
+  .year ,   .exper{
+    font-size: 1.5rem;
+  }
+}
